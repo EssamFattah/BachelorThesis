@@ -1,7 +1,8 @@
 # C++ Pointer Structure Visualizer
 A tool that helps students visualize pointer-based data structures in C++. It parses C++ class definitions using Clang, generates custom traversal and Graphviz visualization code, and outputs easy-to-read graphs of linked structures like lists, trees, and graphs. Designed for clarity, simplicity, and robustness, this tool makes debugging and learning pointer logic more intuitive.
 
-🎯 Features
+# Features 🎯
+
 ✅ Automatic class parsing using libclang
 
 🧠 Custom traversal and visualization generation
@@ -14,6 +15,10 @@ A tool that helps students visualize pointer-based data structures in C++. It pa
 
 ⚙️ Minimal setup – works with most student C++ projects
 
-projects
-
 # Quick Setup 🚀
+1. Clone or download the repository.
+2. Place the setup.py file in the same repository as the source file you want to visualize.
+3. Replace the filename and target class in the setup.py script and run it.
+4. Include the newly generated visualize_autogen.cpp file in the source file.
+5. Call visualize(rootPointer) directly in the source code.
+6. Run dot -Tpng output.dot -o output.png to render the DOT file into an image.
