@@ -16,4 +16,4 @@ A tool that helps students visualize pointer-based data structures in C++. It pa
 
 projects
 
-#🚀 Quick Setup
+# Quick Setup 🚀
