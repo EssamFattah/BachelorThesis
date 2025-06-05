@@ -11,9 +11,9 @@ A tool that helps students visualize pointer-based data structures in C++. It pa
 
 🔒 Handles common edge cases safely
 
-🖼️ Outputs Graphviz DOT files, renderable to PNG or SVG
+🖼️ Outputs Graphviz DOT files, renderable to PNG
 
-⚙️ Minimal setup – works with most student C++ projects
+⚙️ Minimal setup
 
 # Quick Setup 🚀
 1. Clone or download the repository.
