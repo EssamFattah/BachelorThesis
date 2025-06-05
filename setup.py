@@ -85,7 +85,7 @@ def generate_visualize_cpp(class_name, pointer_fields, filename, label_field = "
         "    std::ofstream out(filename);",
         "    out << \"digraph G {\\n\";",
         "    out << \"    node [shape=box];\\n\";",
-        "    out << \"    rankdir=TB;\\n\";",  # top-down layout for trees
+        "    out << \"    rankdir=TB;\\n\";",  
         f"    std::unordered_map<{class_name}*, int> ids;",
         "    int id = 0;",
         "    traverse(root, out, ids, id);",
