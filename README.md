@@ -13,3 +13,7 @@ A tool that helps students visualize pointer-based data structures in C++. It pa
 🖼️ Outputs Graphviz DOT files, renderable to PNG or SVG
 
 ⚙️ Minimal setup – works with most student C++ projects
+
+projects
+
+#🚀 Quick Setup
