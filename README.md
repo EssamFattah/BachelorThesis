@@ -1,3 +1,4 @@
+#  TRACE (Tool for Rendering and Analyzing Connected Elements)
 # C++ Pointer Structure Visualizer
 A tool that helps students visualize pointer-based data structures in C++. It parses C++ class definitions using Clang, generates custom traversal and Graphviz visualization code, and outputs easy-to-read graphs of linked structures like lists, trees, and graphs. Designed for clarity, simplicity, and robustness, this tool makes debugging and learning pointer logic more intuitive.
 
